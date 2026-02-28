@@ -2,11 +2,7 @@
 
 CH340C USB-to-UART bridge with auto-flash circuit for ESP32/ESP32-CAM. Features pre-crossed TX/RX lines and safe 3.3V/5V logic interfacing for Arduino targets.
 
-<<<<<<< HEAD
-=======
-\# CH340C Universal USB-C Programmer (ESP32 \& Arduino)
 
->>>>>>> d3c2fe283bd9ebe35d8d2695657e4695cd239a57
 
 A versatile and safe USB-to-Serial bridge designed to take the hassle out of flashing microcontrollers. While most generic CH340 adapters require manual button presses to flash Espressif chips, this board features a built-in \*\*auto-reset circuit\*\*, making it a true "plug \& play" solution for the \*\*ESP32\*\* and \*\*ESP32-CAM (WROOM)\*\*.
 
