@@ -30,8 +30,8 @@ This is the primary use case. The programmer handles the boot sequence automatic
 | **Vout** | `5V` or `3.3V` | Power supply (Match your board's logic) |
 | **D0** | `GPIO 0` (BOOT) | Triggers the flash mode |
 | **EN** | `EN` (RST) | Resets the microcontroller |
-| **TX** | `TX` (U0R) | Serial Receive (Direct connection) |
-| **RX** | `RX` (U0T) | Serial Transmit (Direct connection) |
+| **TX** | `TX` (U0T) | Serial Transmit (Direct connection) |
+| **RX** | `RX` (U0R) | Serial Receive (Direct connection) |
 | **GND** | `GND` | Common ground |
 
 ### 2. Arduino (e.g., Pro Mini) Wiring
@@ -41,8 +41,8 @@ Fully compatible with standard ATMega targets using the `EN` pin for the reset p
 | :--- | :--- | :--- |
 | **Vout** | `5V` or `3.3V` | Power supply |
 | **EN** | `RESET` | Connect via target's 0.1uF series capacitor |
-| **TX** | `RX` | Serial Receive |
-| **RX** | `TX` | Serial Transmit |
+| **TX** | `TX` | Serial Transmit |
+| **RX** | `RX` | Serial Receive |
 | **GND** | `GND` | Common ground |
 *(Note: The `D0` pin is left unconnected for Arduino targets).*
 
