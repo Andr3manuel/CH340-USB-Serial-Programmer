@@ -1,7 +1,7 @@
 # CH340C Universal USB-C Programmer
 
 <p align="center">
-  <img src="Media/Bottom_Side_PCB.png" width="700" alt="Vista inferior de la PCB">
+  <img src="Media/Top_3D_view.png" width="700" alt="Vista inferior de la PCB">
 </p>
 
 A plug-and-play USB-to-UART bridge designed for seamless flashing of **ESP32, ESP32-CAM (WROOM), and Arduino** microcontrollers. 
