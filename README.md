@@ -30,8 +30,8 @@ This is the primary use case. The programmer handles the boot sequence automatic
 | **Vout** | `5V` or `3.3V` | Power supply (Match your board's logic) |
 | **D0** | `GPIO 0` (BOOT) | Triggers the flash mode |
 | **EN** | `EN` (RST) | Resets the microcontroller |
-| **TX** | `RX` (U0R) | Serial Receive (Direct connection) |
-| **RX** | `TX` (U0T) | Serial Transmit (Direct connection) |
+| **TX** | `TX` (U0R) | Serial Receive (Direct connection) |
+| **RX** | `RX` (U0T) | Serial Transmit (Direct connection) |
 | **GND** | `GND` | Common ground |
 
 ### 2. Arduino (e.g., Pro Mini) Wiring
